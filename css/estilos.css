@@ -6,30 +6,56 @@
         Purpose of the stylesheet follows.
 */
 
-#menu {
-height: 52px;
-width: 968px;
-background-color: #00F;
+*{
+    font-family: 'Calibri','Arial';
+    text-align: center;
 }
- 
-#slices {
+
+body{
+    background: #A9D0F5;
+}
+
+#header{
 height: 359px;
 width: 968px;
-background-color: #FF0;
+text-align: right;
 }
- 
+
+ul#menu{
+padding: 0;
+}
+
+ul#menu li{
+display: inline;
+float:left;
+}
+
+ul#menu li a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #2175bc;
+    color: #fff;
+}
+
+ul#menu li a:hover{
+    background-color: #2586d7;
+    margin-top: -2px;
+    padding-bottom: 12px;
+}
+
 #cuerpo {
 height: 700px;
-background-color: #C60;
+background-color: #E0F2F7;
 }
 
 #contenedor {
 width: 968px;
+margin: auto;
 }
  
 #footer {
 height: 50px;
 width: 968px;
-background-color: #C09;
+background-color: #5882FA;
 }
-
