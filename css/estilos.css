@@ -16,7 +16,7 @@ body{
 }
 
 #header{
-height: 359px;
+height: 300px;
 width: 968px;
 text-align: right;
 }
@@ -27,7 +27,8 @@ padding: 0;
 
 ul#menu li{
 display: inline;
-float:left;
+float:right;
+position: relative;
 }
 
 ul#menu li a{
@@ -52,10 +53,12 @@ background-color: #E0F2F7;
 #contenedor {
 width: 968px;
 margin: auto;
+box-shadow: 0 0 5px 5px #819FF7; 
 }
  
 #footer {
 height: 50px;
 width: 968px;
 background-color: #5882FA;
+color:white;
 }
