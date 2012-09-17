@@ -15,40 +15,56 @@ body{
     background: #CECEF6
 }
 
-.header{
+#header{
 height: 300px;
 width: 973px;
 text-align: right;
 }
 
-.cuerpo {
-height: 800px;
+#cuerpo {
+height: 400px;
 background-color: #E0E6F8;
 }
 
-.contenedor {
+#contenedor {
 width: 973px;
 margin: auto;
 box-shadow: 0 0 5px 5px #819FF7; 
 }
  
-.footer {
+#footer {
 height: 50px;
 width: 973px;
 background-color: #8181F7;
 color:white;
 }
 
-.centrar
-{
-position: relative;
-top:50%;
-left:50%;
-width:400px;
-margin-left:-200px;
-height:200px;
-margin-top:-100px;
-border:3px solid #808080;
-background-color: #9CACE8;
-padding:5px;
+#menu {
+width: 973px;
+background-color: #2175bc;
+position: absolute;
+}
+
+#button {  
+padding: 0;  
+}
+
+#button li {  
+display: inline;  
+}
+
+#button li a {  
+font-family: Arial;  
+font-size:11px;  
+text-decoration: none;  
+float:left;  
+padding: 10px;  
+background-color: #2175bc;  
+color: #fff;  
+}
+
+#button li a:hover {  
+background-color: #2586d7;  
+margin-top:-2px;  
+padding-bottom:12px;  
 }
