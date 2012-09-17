@@ -20,7 +20,8 @@ and open the template in the editor.
                     <li><a href=”#”>Nueva noticia</a></li>  
                     <li><a href=”#”>Actualizar</a></li>  
                     <li><a href=”#”>Borrar</a></li>  
-                    <li><a href=”#”>Ver lista</a></li> 
+                    <li><a href=”#”>Ver lista</a></li>
+                    <li><a href=”#”>Cerrar Sesion</a></li>
                 </ul>
             </div>
             
