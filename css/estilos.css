@@ -21,30 +21,6 @@ width: 968px;
 text-align: right;
 }
 
-ul#menu{
-padding: 0;
-}
-
-ul#menu li{
-display: inline;
-float:right;
-position: relative;
-}
-
-ul#menu li a{
-    text-decoration: none;
-    float: left;
-    padding: 10px;
-    background-color: #2175bc;
-    color: #fff;
-}
-
-ul#menu li a:hover{
-    background-color: #2586d7;
-    margin-top: -2px;
-    padding-bottom: 12px;
-}
-
 #cuerpo {
 height: 700px;
 background-color: #E0F2F7;
